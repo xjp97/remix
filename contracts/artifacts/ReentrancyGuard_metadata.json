@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/homework.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/homework.sol": {
+			"keccak256": "0x56f34251c09cc3960a9268a9948f30b324c53b3fc5a648d61754bafb4605e6d4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c69919352d7b16a3c3bd6cd03a2b39bbe9a8bd7d08386c646605efac7c05ae05",
+				"dweb:/ipfs/QmcRrcACBqdhN2devb1DBACSW6SNczPAkNsboxo68i7YWH"
+			]
+		}
+	},
+	"version": 1
+}

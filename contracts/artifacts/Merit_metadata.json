@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC777",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "givers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "userData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "operatorData",
+						"type": "bytes"
+					}
+				],
+				"name": "tokensReceived",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"tokensReceived(address,address,address,uint256,bytes,bytes)": {
+					"details": "Called by an {IERC777} token contract whenever tokens are being moved or created into a registered account (`to`). The type of operation is conveyed by `from` being the zero address or not. This call occurs _after_ the token contract's state is updated, so {IERC777-balanceOf}, etc., can be used to query the post-operation state. This function may revert to prevent the operation from being executed."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Merit.sol": "Merit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC777/IERC777.sol": {
+			"keccak256": "0x79e6094047e40d49efa3c725b7a1519e16c28c46944884b5f6d0fbe89b450f03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2570d04d0b74df414fa33f9f7da6442419a07909ece7baeecd7147d9c7d6a432",
+				"dweb:/ipfs/QmRDQM1kzddwCk8ateQgnogu495fWb4L9Xwr42DAQhHzi5"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol": {
+			"keccak256": "0x1a5d61db2733202ba361e6d6741cd2e662380e22b80e987eacfc91973f2267dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://04c0cd697050a6516b7779aa2343ad2d0e5217d8915ac2382681dfdf4e445be3",
+				"dweb:/ipfs/QmPCBCZgm7pHBwwogE2F9NCN3UfTdLNhqc8UDEvw8kDzyA"
+			]
+		},
+		"@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol": {
+			"keccak256": "0x42f11bff9d625194645e74f01a3cf8f69a3979f07becfa293f75757cabb92050",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dc35b43a667c38d0868c20d648ccb2ec4107bcc1e77ce4fc79ce4938cb51a6d",
+				"dweb:/ipfs/QmbwauNDkoLnWYB2owGeZBYWz2y7ZejdC6Q3c5MPZHLnNm"
+			]
+		},
+		"contracts/Merit.sol": {
+			"keccak256": "0x0e2c1dbb077fc979868da441b917fc029a38e9b031c6cf163ba5b9c567e717b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5feda10a03fc3acce258ebe0464b856913dbf4faf1af6fdf2cabafbebf7bd955",
+				"dweb:/ipfs/QmeaRVveyDcySUK7LJfNy3aaQg8cZ31W4vL9pWbfKpBJvU"
+			]
+		}
+	},
+	"version": 1
+}
